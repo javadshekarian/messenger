@@ -1,0 +1,259 @@
+
+.contactsBox{
+    width: 50%;
+    height: 100%;
+    text-transform: capitalize;
+}
+.contactsBox2{
+    width: 100%;
+    height: calc(100% - 125px);
+    text-transform: capitalize;
+    overflow-y: scroll;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.contactsBox2::-webkit-scrollbar{
+    display: none;
+}
+.contact{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.picture{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/profile.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    margin-left: 10px;
+}
+.clightgray{
+    color: lightgray;
+}
+.cgray{
+    color: gray;
+}
+#searchContact{
+    width: 83.75%;
+    height: 30px;
+    background-color: #ff000000;
+    border: 0;
+    border-bottom: 1px solid crimson;
+    font-family: "roboto";
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+    padding: 5px 10px 5px 10px;
+}
+#searchContact:focus{
+    outline: none;
+}
+#searchContact::placeholder{
+    font-style: italic;
+}
+.ib{
+    width:100%;
+    height: 30px;
+}
+#selectContact{
+    color: #c5c5c5;
+    height: 28px;
+    border-radius: 7px;
+    border: 0;
+    background-color: crimson;
+    font-size: 14px;
+    padding: 0 10px 0 10px;
+    margin-right: 10px;
+}
+.dib{
+    display: inline-block;
+    left: 0;
+}
+#dsn{
+    width: 50%;
+}
+.ic2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#optionContainer{
+    width: 100%;
+}
+#createChannel{
+    width: 90%;
+}
+.selectCircle{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid crimson;
+    right: 10px;
+    top: calc(50% - 7px);
+    cursor: pointer;
+}
+/* new */
+.channelContainer{
+    width: calc(100% + 20px);
+    height: calc(100% + 110px);
+    margin-top: -100px;
+    margin-left: -10px;
+}
+#channelForm{
+    width: 90%;
+    height: calc(100% - 50px);
+}
+.tran{
+    transition: all 1s cubic-bezier(0.5,0.25,0,1);
+}
+.w170{
+    width: 170px;
+}
+.capit{
+    text-transform: capitalize;
+}
+.w190{
+    width: 190px;
+    margin-left: 10px;
+}
+#level1{
+    width: 100%;
+    overflow-x: scroll;
+}
+#level1::-webkit-scrollbar{
+    display: none;
+}
+#level2{
+    width:0;
+    overflow-x: scroll;
+    height: 100%;
+    backdrop-filter: brightness(75%) !important;
+    background-color: #121316;
+}
+#level2::-webkit-scrollbar{
+    display: none;
+}
+.channelInput{
+    width: 100%;
+    height: 30px;
+    background-color: #ff000000;
+    border: 0;
+    border-bottom: 1px solid crimson;
+    font-family: "roboto";
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.channelInput:focus{
+    outline: none;
+}
+.channelInput::placeholder{
+    font-style: italic;
+}
+#leftLevel1{
+    color: crimson;
+    font-size: 18px;
+    cursor: pointer;
+}
+.box4{
+    width: 100%;
+    height: 65px;
+}
+.allContactBox{
+    width: 100%;
+    height: calc(100% - 95px);
+    overflow-y: scroll;
+}
+.allContactBox::-webkit-scrollbar{
+    display: none;
+}
+.contactChannel{
+    width: 95%;
+    background-color: black;
+    height: 80px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.contactPictureChannel{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(../img/pic7.jpg);
+    background-size: cover;
+}
+.greenSelect{
+    width: 13px;
+    height: 13px;
+    border: 2px solid #23EBC3;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.fillCir{
+    background-color: #23EBC3;
+}
+.createChannelSubmit{
+    color: #c5c5c5;
+    height: 28px;
+    border-radius: 7px;
+    border: 0;
+    background-color: crimson;
+    font-size: 14px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    width: 115px;
+}
+input[type="text"]::placeholder{
+    text-transform: capitalize;
+}
+#backToMenu{
+    position: absolute;
+    top: 27px;
+    font-size: 18px;
+    right: 20px;
+}
+.setSelectStyle{
+    border-radius: 0;
+    border-top: 1px solid #23EBC3;
+    border-bottom: 1px solid #23EBC3;
+}
+.channelTitle{
+    text-transform: capitalize;
+    color: #23EBC3;
+    font-weight: bold;
+    position: relative;
+}
+.channelIcon{
+    width: 72px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #212121;
+    font-family: 'roboto';
+    transform: rotate(45deg);
+    right: 0;
+}
+#channelPictureL{
+    width: 90px;
+    height: 90px;
+    border: 2px dashed crimson;
+    display: flex;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+}
+.m-auto{
+    color: red !important;
+    width: 148px !important;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: calc(50% - 74px);
+}

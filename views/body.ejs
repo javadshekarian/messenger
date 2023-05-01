@@ -1,0 +1,132 @@
+<%- include('header') %>
+<!-- add "active-options" class to this element: -->
+<div id="videoCallContainer" class="dsn">
+    <video autoplay id="remote" class="pa"></video>
+    <div class="frfe localContainer pa">
+        <div class="fcfe h">
+            <video autoplay muted id="local"></video>
+        </div>
+    </div>
+</div>
+<section class="main-section bc-i pd0" id="mainContainer">
+    <div class="side-nav">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+    <div class="left-col fltr">
+        
+        <div id="menuAndContactsContainer">
+            <!-- including contacts header -->
+            <%- include('parshall/contactsHeader') %>
+            <!-- end of include -->
+
+            <!----- including contacts ----->
+            <div id="contactContai">
+                <!-- contacts place -->
+            </div>
+            <!-- end of including contacts -->
+        </div>
+        <%- include('parshall/setting') %>
+        <%- include('parshall/createChannel') %>
+        <%- include('parshall/createGroup')  %>
+    </div>
+    <!-- add "active-profile-sec" to this div: -->
+    <div class="right-col dsn">
+        <div class="chat-section">
+            
+            <!-- including profile header -->
+            <%- include('parshall/profileHeader') %>
+            <!-- end of including -->
+
+            <div class="chat-box">
+                <!-- here is place of the chats -->
+                <div class="recieved-massage massage">
+                    <div class="text-area frs">
+                        <div class="line"></div>
+                        <div>
+                            <a href="baaaaf65-54fe-4685-85b2-f3d3a2d30066.mp4">
+                                <p class="massage-content link">baaaaf65-54fe-4685-85b2-f3d3a2d30066.mp4</p>
+                            </a>
+                            <p class="massage-content mb5 ts">y2mate.com - chavoshi - _360p.mp4</p>
+                            <div class="messagePicture frc aic"></div>
+                            <span class="ts">6:4</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- file -->
+                <div class="recieved-massage massage">
+                    <div class="text-area frs">
+                        <div class="line"></div>
+                        <div>
+                            <a href="baaaaf65-54fe-4685-85b2-f3d3a2d30066.mp4">
+                                <p class="massage-content link">baaaaf65-54fe-4685-85b2-f3d3a2d30066.mp4</p>
+                            </a>
+                            <p class="massage-content mb5 ts">y2mate.com - chavoshi - _360p.mp4</p>
+                            <div class="messagefile frc aic">
+                                <i class="fa fa-file"></i>
+                            </div>
+                            <span class="ts">6:4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- including the messanger input -->
+            <div id="mainInputContent">
+                <%- include('parshall/messangerForm') %>
+            </div>
+            <!-- end of include -->
+
+        </div>
+        
+        <!-- including profile selections -->
+        <%- include('parshall/profileSelections') %>
+        <!-- end of the include -->
+    </div>
+    <div class="frs aic newMessage dsn">
+        <div class="nmt">new messange</div>
+    </div>
+    <%- include('parshall/addContact') %>
+    <ul class="menuContent">
+        <!-- including messanger options -->
+        <%- include('parshall/messangerOptions') %>
+        <!-- the end of include -->
+
+    </ul>
+</section>
+<div class="pa">
+    <div id="videoContent" class="tran">
+        <video src="0b1e9d52-8970-4cf6-9e94-0c2b0cbfa9bc.mp4" id="sendVideoPlay"></video>
+        <div class="frfe pa closeC">
+            <i class="fa fa-multiply mr10 mt5 cc tran cwi" id="closeVideo"></i>
+        </div>
+        <div id="videoControls" class="pa frsb">
+            <div>
+                <i class="fa fa-play fs20" id="playPauseVideo"></i>
+            </div>
+            <div id="videoBar">
+                <input type="range" min="0" max="100" value="0" class="slider2" id="videoBarMove">
+            </div>
+            <div id="videoTime" class="fcc">
+                <div>00:00 / 00:00</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pa fcc dsn" id="showPictureContain">
+    <div id="showPicture"></div>
+    <div class="ncb pa">
+        <i class="fa fa-multiply mr10 mt5 cwi fs30i" id="removeShowPic"></i>
+    </div>
+</div>
+
+<!-- <div class="pa">
+    <div id="reactionContent" class="frs aic tran">
+        <div class="reactEmoji">❤️</div>
+        <div class="reactEmoji">🤣</div>
+        <div class="reactEmoji">😍</div>
+        <div class="reactEmoji">👍</div>
+        <div class="reactEmoji">😉</div>
+    </div>
+</div> -->
+<%- include('footer') %>

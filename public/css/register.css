@@ -1,0 +1,220 @@
+.tran{
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+.logo{
+    -webkit-text-stroke: 2px #ff0030;
+    -webkit-text-fill-color: #ff002f00;
+    font-size: 24px;
+}
+.icon{
+    font-family: 'logo';
+}
+.logoName{
+    font-size: 32px;
+    font-family: 'logo';
+    -webkit-text-stroke: 1px #ff0030;
+    color: white;
+}
+form{
+    width: 320px;
+    height: 90vh;
+}
+input[type="text"]{
+    width: 256px;
+    height: 32px;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    font-size: 16px;
+    font-family: 'roboto';
+    font-weight: bold;
+}
+input[type="text"]::placeholder{
+    font-style: italic;
+    font-family:"robotoThin";
+    font-size: 14px;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+.inputContent{
+    width: 100%;
+}
+.next{
+    width: 101px;
+    height: 35px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:"robotoThin";
+    border-radius: 5px;
+}
+.content{
+    margin-top: 20px;
+    width: 300px;
+}
+.registerIcon{
+    align-self: center;
+    font-size: 18px;
+    color: rgb(167, 167, 167);
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+    padding-right: 8px;
+}
+.explain{
+    font-size: 10px;
+    margin-top: 5px;
+    color: gray;
+    font-style: italic;
+    width: 300px;
+}
+.auto{
+    margin-left: auto;
+    margin-right: auto;
+    width: 256px;
+}
+.logIn{
+    color: blue;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    width: 256px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+}
+#page1{
+    overflow: scroll;
+    height: 266px;
+}
+#page1::-webkit-scrollbar{
+    display: none;
+}
+#page2{
+    overflow: scroll;
+    width: 0px;
+}
+#page3{
+    overflow: scroll;
+    width: 300px;
+}
+#page2::-webkit-scrollbar{
+    display: none;
+}
+#page3::-webkit-scrollbar{
+    display: none;
+}
+input[type="password"]{
+    width: 256px;
+    height: 32px;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    font-size: 16px;
+    font-family: 'roboto';
+    font-weight: bold;
+}
+input[type="password"]::placeholder{
+    font-style: italic;
+    font-family:"robotoThin";
+    font-size: 14px;
+}
+input[type="password"]:focus{
+    outline: none;
+}
+.fa-lock{
+    margin-top: 7px !important;
+}
+button[type="submit"]{
+    display: none;
+}
+.mt-8{
+    margin-bottom: -8px;
+}
+.mt8{
+    margin-top: 8px !important;
+}
+.fa-arrow-left{
+    color:#ff0030;
+}
+button{
+    cursor: pointer;
+}
+.cp{
+    cursor: pointer;
+}
+label{
+    width: 100px;
+    height: 100px;
+    border: 2px dotted rgb(0,220,255);
+    border-radius: 10px;
+}
+.fa-plus{
+    font-size: 20px;
+    color: rgb(0,220,255);
+}
+#page3{
+    overflow: scroll;
+    width: 0;
+}
+#page3::-webkit-scrollbar{
+    display: none;
+}
+.spf{
+    display: inline;
+    width: 156px;
+}
+.ma{
+    margin-left: auto;
+    margin-right: auto;
+}
+.ip{
+    width: 150px;
+}
+label{
+    cursor: pointer;
+}
+#nf{
+    cursor: pointer;
+}
+.mi{
+    margin-left: 34px;
+    margin-top: 170px;
+}
+.log{
+    text-align: center;
+}
+.logint{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-family: 'robotoThin';
+}
+.inc{
+    margin-top: 34px;
+    left: 10px;
+    font-weight: bold;
+}
+label{
+    background-size: cover;
+}
+.df{
+    display: flex !important;
+}
+.tran{
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+}

@@ -1,0 +1,93 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url(../img/24048.jpg);
+    background-size: cover;
+    backdrop-filter: blur(20px);
+}
+.container{
+    width: calc(100vh + 30vh);
+    height: calc(100vh - 100px);
+    background-color: white;
+}
+.imagesContainer{
+    width: calc(100vh - 130px);
+    height: calc(100vh - 100px);
+    background-color: red;
+    position: relative;
+}
+form{
+    height: calc(50vh - 50px);
+}
+.carousel-item{
+    position: absolute;
+    left: 0;
+    background: red;
+    width: 100%;
+    opacity: 0;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: all 1s;
+}
+.carousel-item.active{
+    opacity: 1;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+.loginContainer{
+    background: rgba(241, 241, 241, 1);
+    width: calc(30vh + 130px);
+    height: calc(100vh - 100px);
+}
+.tac{
+    text-align: center;
+    font-family: 'pacifico';
+}
+h1{
+    letter-spacing: 2px;
+}
+input[type="text"]{
+    width: calc(100% - 40px);
+    height: 35px;
+    border: 0;
+    border-bottom: 1px solid #c0c0c0;
+    background-color: rgba(253, 253, 253, 0);
+    font-family: 'roboto';
+    font-size: 16px;
+}
+input[type="text"]::placeholder{
+    font-family: 'roboto';
+}
+input[type="text"]:focus{
+    outline: none;
+}
+button{
+    border: none;
+    background-color: #f4a1ff;
+    height: 35px;
+    width: 100px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: rgb(78, 31, 80);
+    font-size: 16px;
+    text-align: center;
+    font-family: 'pacifico', sans-serif;
+}
+.to-signup{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    position: relative;
+    transition: all 0.3s;
+    font-family: 'roboto';
+    cursor: pointer;
+}
+.to-signup:hover{
+    opacity: 0.7;
+}

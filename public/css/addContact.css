@@ -1,0 +1,87 @@
+.addContactBox{
+    width: 100%;
+    height: calc(100% - 30px);
+    margin-top: 30px;
+    /* display: flex !important; */
+}
+.addContactInput{
+    width: 100%;
+    height: 30px;
+    background-color: #ff000000;
+    border: 0;
+    border-bottom: 1px solid crimson;
+    font-family: "roboto";
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.addContactInput:focus{
+    outline: none;
+}
+.addContactInput::placeholder{
+    font-style: italic;
+}
+.ic{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+.saveContact{
+    color: #c5c5c5;
+    width: 50px;
+    height: 28px;
+    border-radius: 7px;
+    border: 0;
+    background-color: crimson;
+    font-size: 14px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+.addContactsToChannel{
+    color: #c5c5c5;
+    height: 28px;
+    border-radius: 7px;
+    border: 0;
+    background-color: crimson;
+    font-size: 14px;
+    margin-top: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ac{
+    font-weight: bold;
+    color: crimson;
+    font-size: 18px;
+}
+.mc{
+    width: 100%;
+    font-size: 24px;
+    height: 30px;
+}
+.cc{
+    color: crimson;
+}
+@media (max-width:767px){
+    .ic{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+}
+.response{
+    margin-top: 145px;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: 0 0 4px black;
+    letter-spacing: 1px;
+}
+.cgold{
+    color: gold;
+}
+.cgreen{
+    color: green;
+}
+.cp{
+    cursor: pointer;
+}

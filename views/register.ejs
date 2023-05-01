@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/fontsAndSetting.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/register.css">
+    <title>Document</title>
+</head>
+<body class="frc aic">
+    <form action="#" class="fcsb dsn" id="createAccount">
+        <div class="icon frfs aic">
+            <i class="fa fa-arrow-left pa dsn ml5 cp" id="back"></i>
+            <div class="ml10 frfs aic">
+                <i class="fa fa-paper-plane logo ml20"></i>
+                <div class="logoName ml5">Bychat.one</div>
+            </div>
+        </div>
+        <div class="frfs">
+            <div class="frs fww inputContent tran" id="page1">
+                <div class="content frc">
+                    <i class="fas fa-user-tie registerIcon"></i>
+                    <input type="text" contenteditable="true" spellcheck="false" name="name" placeholder="*  inter your name">
+                </div>
+                <div class="content frc">
+                    <i class="fas fa-user-friends registerIcon"></i>
+                    <input type="text" spellcheck="false" name="family" placeholder="*  inter your family">
+                </div>
+                <div class="content frc">
+                    <i class="far fa-user-circle registerIcon"></i>
+                    <input type="text" spellcheck="false" name="username" placeholder="*  select username">
+                </div>
+                <div class="auto frfs">
+                    <div class="explain">You can use letter, number and periods</div>
+                </div>
+                <div class="content frc">
+                    <i class="fa fa-phone registerIcon"></i>
+                    <input type="text" spellcheck="false" name="phoneNumber" placeholder="*  inter your phone number">
+                </div>
+            </div>
+            <div class="frc aic">
+                <div id="page2" class="tran pr">
+                    <div class="cr fs10 ml10 dsn mb10 ip pa">your passwords not equal!</div>
+                    <div class="content frc">
+                        <i class="fa fa-lock registerIcon"></i>
+                        <input type="password" spellcheck="false" name="password" placeholder="*  select password">
+                    </div>
+                    <div class="content frc">
+                        <i class="fa fa-lock registerIcon"></i>
+                        <input type="password" spellcheck="false" name="password" placeholder="*  repeat your password">
+                    </div>
+                </div>
+            </div>
+            <div class="frfe aic">
+                <div id="page3" class="tran fcc aic ml10">
+                    <div class="mb20 fs12 cg spf">select picture for your profile.</div>
+                    <div class="cr fs10 dsn ip pa mi">your can select jpg, jpeg or png!</div>
+                    <div class="frc">
+                        <input type="file" class="dsn" name="profilePicture" id="profilePicture">
+                        <label for="profilePicture" class="frc aic">
+                            <i class="fa fa-plus"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fcc aic">
+            <div class="logIn cp" id="loginT">login to my account!</div>
+            <div id="nf" class="cp">
+                <div class="next textac fcc">Next</div>
+                <button type="submit" class="next">create account</button>
+            </div>
+        </div>
+    </form>
+    <form action="#" class="fcsb" id="login">
+        <div class="icon frfs aic">
+            <div class="ml10 frfs aic">
+                <i class="fa fa-paper-plane logo ml20"></i>
+                <div class="logoName ml5">Bychat.one</div>
+            </div>
+        </div>
+        <div>
+            <div class="content frc pr">
+                <i class="fas fa-user-tie mt-8 registerIcon"></i>
+                <input type="text" spellcheck="false" name="username" placeholder="*  select password">
+                <div class="fs10 dsn cr pa inc">the username is false</div>
+            </div>
+            <div class="content frc pr">
+                <i class="fa fa-lock registerIcon mt8"></i>
+                <input type="password" spellcheck="false" name="password" placeholder="*  repeat your password">
+                <div class="fs10 dsn cr pa inc">the password is false</div>
+            </div>
+        </div>
+        <div class="fcc aic">
+            <div class="logIn cp" id="goC">You haven't any account? click here!</div>
+            <div id="nf">
+                <button type="submit" class="next textac fcc log df">
+                    <div class="logint">login</div>
+                </button>
+            </div>
+        </div>
+    </form>
+    <script src="js/register.js"></script>
+</body>
+</html>

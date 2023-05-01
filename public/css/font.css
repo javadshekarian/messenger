@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'facebook';
+    src: url(../fonts/LucidaGrande.ttf);
+}
+@font-face {
+    font-family: 'facebookBold';
+    src: url(../fonts/LucidaGrandeBold.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: 'iconFont';
+    src: url(../fonts/ITCEDSCR.TTF);
+}
+@font-face {
+    font-family: 'logo';
+    src: url(../fonts/ITCEDSCR.TTF);
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family:"robotoThin";
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: 'pacifico';
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+.ffr{
+    font-family: 'roboto';
+}
+.ffrt{
+    font-family: 'robotoThin';
+}
+.ffl{
+    font-family: 'logo';
+}
+.ffp{
+    font-family: 'pacifico';
+}
+.facebook{
+    font-family: 'facebook';
+}
+.ffi{
+    font-family: 'iconFont';
+}
